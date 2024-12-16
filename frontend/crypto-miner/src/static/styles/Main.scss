@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Pixelify+Sans:wght@400..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+$background_color: #121212;
+$main_text_color: #FFFFFF;
+$border_color: #3e3d3d;
+$selected_border: #ffb300;
+$section_bg: #1E1E1E;
+$start_btn_bg: #4CAF50;
+$start_btn_border: #347136;
+
+.pixelify-sans {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+  }
+body {
+    background-color: $background_color;
+    padding: 20px;
+    font-family: 'Pixelify Sans';
+    h1 {
+        color: $main_text_color;
+    }
+    main {
+        text-align: center;
+        button {
+            background-color: $start_btn_bg;
+            color: $main_text_color;
+            border: 4px solid $start_btn_border;
+            padding: 10px;
+            font-size: 18px;
+            border-radius: 14px;
+        }
+    }
+    .select-crypto {
+        img {
+            width: 60px;
+        }
+        justify-content: space-between;
+        gap: 5px;
+        .section {
+            background-color: $section_bg;
+            height: fit-content;
+            padding: 10px;
+            justify-content: space-evenly;
+            border-radius: 10px;
+            transition: 0.4s;
+        }
+    }
+}
+.active-border {
+    border: 5px solid $selected_border;
+}
+.default-border{
+    border: 5px solid $border_color;
+}

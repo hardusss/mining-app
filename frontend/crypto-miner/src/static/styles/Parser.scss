@@ -1,0 +1,21 @@
+$text_color: #4CAF50;
+$section_bg: #1E1E1E;
+$border_color: #3e3d3d;
+
+
+p {
+    color: $text_color;
+    font-size: 12px;
+    padding: 0;
+    margin-top: -10px;
+}
+.con {
+    h3 {
+        color: white;
+    }
+    background-color: $section_bg;
+    border: 5px solid $border_color;
+    padding: 10px;
+    border-radius: 10px;
+    padding-bottom: 0;
+}
